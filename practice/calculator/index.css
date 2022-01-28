@@ -19,6 +19,7 @@ body {
   max-width: 300px;
   background-image: linear-gradient(to right bottom, red, orange);
   padding: 2rem;
+  border-radius: 20px;
 }
 
 .number {
