@@ -5,32 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.png" />
     <link rel="stylesheet" href="./index.css" />
     <script src="./index.js" defer></script>
   </head>
   <body>
-    <div class="calculator">
-      <div class="number">
-        <label for="num1">Number 1 :</label>
-        <input type="text" id="num1" autofocus required />
+    <div class="calculator-container">
+      <div class="calculator">
+        <div class="input">
+          <div class="number">
+            <input
+              type="text"
+              id="num1"
+              placeholder="Enter 1st Number"
+              autofocus
+              required
+            />
+          </div>
+          <div class="number">
+            <input
+              type="text"
+              id="num2"
+              required
+              placeholder="Enter 2nd Number"
+            />
+          </div>
+        </div>
+        <div class="btns">
+          <div><button id="sum">+</button></div>
+          <div><button id="sub">-</button></div>
+          <div><button id="mul">*</button></div>
+          <div><button id="div">/</button></div>
+          <div><button id="percentage">%</button></div>
+          <div><button id="power">^</button></div>
+        </div>
+        <div class="result">
+          <input type="text" id="result" placeholder="Your Result" />
+        </div>
+        <div class="clear">
+          <button class="clear" id="clear">Clear</button>
+        </div>
       </div>
-      <div class="number">
-        <label for="num2">Number 2 :</label>
-        <input type="text" id="num2" required />
-      </div>
-      <div class="btns">
-        <div><button id="sum">+</button></div>
-        <div><button id="sub">-</button></div>
-        <div><button id="mul">*</button></div>
-        <div><button id="div">/</button></div>
-        <div><button id="percentage">%</button></div>
-        <div><button id="power">^</button></div>
-      </div>
-      <div class="result">
-        <label for="result">= </label>
-        <input type="text" id="result" />
-      </div>
-      <button class="clear" id="clear">Clear</button>
     </div>
   </body>
 </html>
