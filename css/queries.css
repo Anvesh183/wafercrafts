@@ -1,0 +1,210 @@
+@media (max-width: 34em) {
+  /* html {
+    font-size: 35%;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-top {
+    max-width: 90%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .section-footer p {
+    font-size: 1.4rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .logo-icon {
+    padding: 0.5rem 0.5rem 0 0;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .logo-text {
+    display: inline-block;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+  } */
+
+  html {
+    font-size: 30%;
+  }
+
+  .nav-bar {
+    display: block;
+    height: 12rem;
+  }
+
+  .nav-bar h1 {
+    max-width: 35%;
+    margin: 0 auto;
+  }
+
+  .nav-bar .logo-text {
+    font-size: 1.8em;
+  }
+
+  ul.nav-list {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+  .nav-list a:link,
+  .nav-list a:visited {
+    padding: 2rem;
+    color: #ccc;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a.cta:link,
+  a.cta:visited {
+    margin-left: 3rem;
+    background-color: rgb(101, 101, 236);
+    padding: 0.7rem;
+    border-radius: 1rem;
+    color: #fff;
+  }
+
+  .content-para {
+    line-height: 1.2;
+    letter-spacing: 0.2rem;
+    width: 45rem;
+    color: #fff;
+    font-size: 1.8rem;
+    padding-bottom: 4.8rem;
+  }
+
+  .process-container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .process-image img {
+    height: 50rem;
+  }
+
+  .process-text h2 {
+    max-width: 50rem;
+    font-size: 4.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .steps {
+    max-width: 50%;
+    margin: 0 auto;
+    justify-items: center;
+    column-gap: 3rem;
+  }
+
+  .step-heading {
+    font-size: 2rem;
+  }
+
+  .step-text {
+    color: #222;
+    font-size: 1.6rem;
+  }
+
+  .section-testimonials {
+    padding: 4rem 0 4rem 0;
+  }
+
+  .testimonials-tittle {
+    font-size: 2.6rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+
+  .testimonial-box img {
+    height: 5rem;
+  }
+
+  .testimonial-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+
+  .pricing-section h2 {
+    font-size: 3.8rem;
+    text-align: center;
+  }
+
+  .pricing-containers {
+    column-gap: 1rem;
+  }
+
+  .plan-type h3 {
+    color: #222;
+    font-size: 1.4rem;
+  }
+
+  .plan-cost {
+    margin-top: 2rem;
+    font-size: 2.8rem;
+  }
+
+  .feature p {
+    font-size: 1.2rem;
+  }
+
+  .popular::before {
+    top: 0px;
+    right: -10px;
+
+    font-size: 1.2rem;
+    width: 6rem;
+  }
+
+  .section-cta {
+    padding: 3rem 0 3rem 0;
+  }
+
+  .cta-image-box {
+    padding-top: 12rem;
+  }
+
+  .cta-form input[type="text"],
+  .cta-form input[type="email"],
+  .cta-form select {
+    width: 100%;
+  }
+
+  .footer-top {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding-bottom: 3rem;
+  }
+
+  .footer-logo .logo-text {
+    font-size: 1.8rem;
+  }
+
+  .section-footer p {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .footer-bottom {
+    max-width: 98%;
+    margin: 0 auto;
+  }
+
+  .social-media-icons {
+    font-size: 2rem;
+    padding: 0 0.8rem 0 0.3rem;
+    cursor: pointer;
+  }
+}
